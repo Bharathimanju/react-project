@@ -1,0 +1,174 @@
+.body {
+    background-color: rgb(248, 248, 237);
+}
+
+.five {
+    color: red;
+    font-style: italic;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* part 2 */
+.te {
+    margin-top: 15px;
+}
+
+.ros {
+    margin-top: 25px;
+}
+
+.ros h5 {
+    color: #27ae60;
+    /* Initial color */
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgb(165, 74, 74);
+    text-underline-offset: 8px;
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+}
+
+.ros h5:hover {
+    color: rgb(255, 0, 0);
+    /* New color on hover */
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* part 3 */
+.card-imgs-top {
+    background-color: #f4f6f6;
+    border: 10px solid white;
+}
+
+.cardss {
+    box-shadow: 0 7px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+.star {
+    color: gold;
+}
+
+.box {
+    /* padding: 3px; */
+    background-color: white;
+    border: 1px solid black;
+    margin: 2px;
+    width: 35px;
+}
+
+.bow h5:hover {
+    color: red;
+    cursor: pointer;
+}
+
+/* button */
+.butts {
+    background-color: rgb(151, 45, 45);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    border-radius: 5px;
+    margin-top: 60px;
+
+}
+
+.butts:hover {
+    background-color: rgb(231, 142, 142);
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+.cardss{
+    transition: 0.5s ease-in-out;
+}
+.cardss:hover{
+    transform: translateY(-15px)
+}
+
+
+/* footer */
+
+#blue {
+    background-image: url(./images/bg13.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  
+  #bird {
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
+  
+  #ph p {
+    margin-top: 18px;
+  }
+  
+  
+  #hh ul li {
+    list-style-type: none;
+    padding: 2px;
+    font-weight: 500;
+    color: white;
+  
+  }
+  
+  #hh ul {
+    margin-top: 18px;
+  }
+  
+  #bird h4 {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+    color: white;
+  }
+  
+  #bird h6 {
+    color: honeydew;
+  }
+  
+  #bird p {
+    color: white;
+  }
+  
+  #bird h4:hover {
+    color: mistyrose;
+  }
+  
+  .inputs {
+    width: 150px;
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid wheat;
+  }
+  
+  .bts {
+    padding: 4px;
+    margin: 2px;
+    border: 1px solid white;
+    width: 78px;
+    background-color: rgb(240, 69, 69);
+    color: white;
+  }
+  
+  .inputs::placeholder {
+    color: green;
+  }
