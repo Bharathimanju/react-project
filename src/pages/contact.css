@@ -1,0 +1,125 @@
+.card-img-topss {
+    width: 23rem;
+    transition: 3s ease;
+}
+
+.cat {
+    overflow: hidden;
+}
+
+.card-img-topss:hover {
+    transform: scale(1.1);
+}
+
+.cat .ppp {
+    color: gray;
+    font-style: italic;
+}
+
+.cat .office {
+    font-size: 27px;
+}
+
+#name {
+    margin-top: 17px;
+}
+
+#to {
+    margin-top: 20px;
+}
+
+.now {
+    background-color: rgb(151, 45, 45);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    border-radius: 5px;
+    margin-top: 29px;
+    margin-bottom: 20px;
+}
+
+.now:hover {
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    background-color: rgb(18, 107, 18);
+}
+
+#stop {
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.2);
+}
+
+
+/* footer */
+
+#blue {
+    background-image: url(./images/bg13.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#bird {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+#ph p {
+    margin-top: 18px;
+}
+
+
+#hh ul li {
+    list-style-type: none;
+    padding: 2px;
+    font-weight: 500;
+    color: white;
+
+}
+
+#hh ul {
+    margin-top: 18px;
+}
+
+#bird h4 {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+    color: white;
+}
+
+#bird h6 {
+    color: honeydew;
+}
+
+#bird p {
+    color: white;
+}
+
+#bird h4:hover {
+    color: mistyrose;
+}
+
+.inputs {
+    width: 150px;
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid wheat;
+}
+
+.bts {
+    padding: 4px;
+    margin: 2px;
+    border: 1px solid white;
+    width: 78px;
+    background-color: rgb(240, 69, 69);
+    color: white;
+}
+
+.inputs::placeholder {
+    color: green;
+}
