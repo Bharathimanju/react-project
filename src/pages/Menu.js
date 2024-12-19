@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import './menu.css'
 import abg1 from './images/abg1.png'
 import ma1 from './images/ma1.png'
@@ -18,6 +19,7 @@ import g3 from './images/g3.jpeg'
 
 
 const Menu = () => {
+    const [count, setCount] = useState(0);
     return (
         <div className="body">
             <div className="container-fluid d-flex justify-content-center" id="imgs">
@@ -53,6 +55,13 @@ const Menu = () => {
                             <h5>Red Crab</h5>
                         </div>
                     </div>
+
+                    <div className='bs d-flex justify-content-end'><br/>
+                        <button style={{ fontSize: '16px', backgroundColor: '#f0f0f0', border:"1px solid black"}}>
+                            <i class='bx bxs-cart'> </i>Card count: {count}
+                        </button>
+                    </div>
+
                 </div>
             </div><br /><br /><br />
 
@@ -73,7 +82,11 @@ const Menu = () => {
                                 <p>$13.49 - $10.99</p>
                                 <div>
                                     <button className='box'><i class='bx bxs-heart' ></i></button>
-                                    <button className='box'><i class='bx bxs-cart'></i></button>
+                                    <button
+                                        className="box"
+                                        onClick={() => setCount(count + 1)}
+
+                                    ><i class='bx bxs-cart'></i></button>
                                     <button className='box'><i class='bx bx-happy-heart-eyes'></i></button>
                                 </div>
                             </div>
@@ -92,7 +105,9 @@ const Menu = () => {
                                 <span className="star" style={{ fontSize: "23px" }}>&#9733;</span>
                                 <p>$13.49 - $10.99</p>
                                 <div>
-                                    <button className='box'><i class='bx bxs-heart' ></i></button>
+                                    <button className='box'><i class='bx bxs-heart' ></i>
+
+                                    </button>
                                     <button className='box'><i class='bx bxs-cart'></i></button>
                                     <button className='box'><i class='bx bx-happy-heart-eyes'></i></button>
                                 </div>
@@ -229,7 +244,7 @@ const Menu = () => {
                     </div>
                 </div>
 
-            </div><br/><br/><br/><br/>
+            </div><br /><br /><br /><br />
 
             {/* footer */}
 
@@ -285,9 +300,9 @@ const Menu = () => {
                     </div>
 
                     <br /><br /><br />
-                    
+
                     <div className='col col-sm-12 col-md-12 col-lg-12 text-center'>
-                        <br/>
+                        <br />
                         <h6>© Copyright Cafeu. 2024 All Right Reserved</h6>
 
                     </div>
